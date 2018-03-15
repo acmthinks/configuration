@@ -1,9 +1,10 @@
 ---
 # Items that apply to ALL profiles:
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8010/eureka/
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8010/eureka/
+globalConfiguration: some-global-value
 
 ---
 spring:
