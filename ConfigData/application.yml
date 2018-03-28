@@ -6,12 +6,26 @@
 #      defaultZone: http://localhost:8010/eureka/
 globalConfiguration: some-global-value
 
+# local workstation
 ---
 spring:
   profiles: local
-service_endpoint_1: http://localhost:8080/product
-  
----
+service_endpoint_1: http://localhost:8080/product/1
+
+#IBM Cloud (Cloud Foundry)  
+--- 
 spring:
   profiles: dev
-service_endpoint_1: http://gapstrainingbff.mybluemix.net/product
+service_endpoint_1: http://gapstrainingbff.mybluemix.net/product/1
+
+#IBM Cloud (IBM Containers)
+--- 
+spring: 
+  profiles: qa
+service_endpoint_1: http://173.193.99.107:port/product/1
+
+#IBM Cloud Private (K8s)
+--- 
+spring:
+  profiles: prod
+service_endpoint_1: http://9.45.127.235.mybluemix.net/product/1
