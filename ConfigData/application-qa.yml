@@ -1,0 +1,3 @@
+service_endpoint_1: http://173.193.99.107:port/product/1
+environment: "quality assurance"
+environment_description: "where user acceptance, security and vulenerability testing occur"
