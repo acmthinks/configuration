@@ -1,0 +1,3 @@
+service_endpoint_1: http://gapstrainingbff.mybluemix.net/product/1
+environment: "development"
+environment_description: "where successful dev build go to be integrated with other microservices (unit test, integration test, contract tests)"
