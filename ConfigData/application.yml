@@ -18,11 +18,6 @@ spring:
   profiles: dev
 service_endpoint_1: http://gapstrainingbff.mybluemix.net/product/1
 
-#IBM Cloud (IBM Containers)
---- 
-spring: 
-  profiles: qa
-service_endpoint_1: http://173.193.99.107:port/product/1
 
 #IBM Cloud Private (K8s)
 --- 
